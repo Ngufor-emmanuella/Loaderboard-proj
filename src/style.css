@@ -5,7 +5,7 @@
 }
 
 h1 {
- padding-left: 2rem;
+  padding-left: 2rem;
   padding-top: 2rem;
 }
 
@@ -17,12 +17,12 @@ h1 {
 }
 
 .recent-scores {
- padding-left: 3rem;
+  padding-left: 3rem;
 }
 
 .recent {
   display: flex;
-  gap: 1rem;;
+  gap: 1rem;
 }
 
 .refresh-button {
