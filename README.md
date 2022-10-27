@@ -1,5 +1,5 @@
 # loaderboard-proj
-In this project I built a loader board
+In this project I built a Leaderboard list app, using webpack and ES6 features, modules.
 ## Built With
 
 - HTML
