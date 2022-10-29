@@ -1,3 +1,58 @@
-body {
-  background-color: blue;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  padding-left: 2rem;
+  padding-top: 2rem;
+}
+
+.mainest {
+  width: 100%;
+  display: flex;
+  gap: 3rem;
+  padding-top: 3rem;
+}
+
+.recent-scores {
+  padding-left: 3rem;
+}
+
+.recent {
+  display: flex;
+  gap: 1rem;
+}
+
+.refresh-button {
+  padding: 3px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 1rem;
+  padding-top: 1rem;
+}
+
+input {
+  padding: 5px;
+}
+
+.submit-button {
+  width: 50%;
+  margin-left: 5rem;
+  padding: 3px;
+}
+
+.table {
+  margin-top: 1rem;
+  border: 1px solid rgb(44, 43, 43);
+  width: 100%;
+}
+
+td {
+  padding-left: 5px;
 }
