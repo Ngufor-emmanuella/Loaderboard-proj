@@ -1,7 +1,8 @@
 const renderContainer = async (gameLInk) => {
   const res = await fetch(gameLInk);
   const resData = await res.json();
-  const container = document.querySelector('.list');
+  // .then((resData) => {
+  const container = document.querySelector('.table');
   container.replaceChildren();
   let counts = 1;
   resData.result.forEach((scores, index) => {
@@ -16,9 +17,11 @@ const renderContainer = async (gameLInk) => {
     } else {
       container.children[index].classList.add('no-color');
     }
+
     counts += 1;
   });
 };
+
 const toAddScore = async (gameLInk, user, score) => {
   await fetch(gameLInk, {
     method: 'POST',
@@ -31,4 +34,5 @@ const toAddScore = async (gameLInk, user, score) => {
     }),
   });
 };
+
 export { renderContainer, toAddScore };
