@@ -53,6 +53,18 @@ input {
   width: 100%;
 }
 
+.table li {
+  list-style-type: none;
+  padding-left: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
 td {
   padding-left: 5px;
+}
+
+.color {
+  background-color: pink;
 }

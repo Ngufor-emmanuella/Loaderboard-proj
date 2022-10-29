@@ -1,12 +1,17 @@
 # loaderboard-proj
-In this project I built a Leaderboard list app, using webpack and ES6 features, modules.
+In this project I built a Leaderboard list app, where the following was implemented in the project
+- Created a new game using the API.
+- saved the ID of my game that will be returned by API.
+- Implemented the "Refresh" button that gets all scores for the game created from the API.
+- Implemented the form "Submit" button that will save scores for the game.
+- Used arrow functions instead of the function keyword.
+- Used async and await JavaScript features to consume the API.
 ## Built With
 
-- HTML
-- CSS
--javascript
+- Html
+- Css
+- JavaScript
 - Linters
--webpack
 
 ### Prerequisites
 
@@ -21,10 +26,6 @@ In this project I built a Leaderboard list app, using webpack and ES6 features, 
 
 - Copy the github link for the repository
 - Open the git terminal and type git clone then paste the repository link
-
-### Run tests
-
-- It has been tested and it is fully responsive
 
 ### Deployment
 

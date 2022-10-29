@@ -4,10 +4,11 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
   <title>Leader board project</title>
 </head>
 <body>
-  <sectiom>
+  <section>
 
     <h1>Leaderboard</h1>
 
@@ -16,22 +17,22 @@
     <div class="recent-scores">
       <div class="recent">
         <h2>Recent scores</h2>
-        <button class="refresh-button" type="button">Refresh</button>
+        <button class="refresh-button" id="refresh-button" type="button">Refresh</button>
       </div>
-      <table class="table">
-      </table>
+      <ul class="table" id="table">
+      </ul>
     </div>
 
     <div class="add-scores">
       <h2>Add your scores</h2>
-      <form action="">
-        <input type="text" placeholder="your name">
-        <input type="text" placeholder="your score">
-        <button class="submit-button" type="button">submit</button>
+      <form action="#">
+        <input type="text" class="name" id="name" placeholder="your name">
+        <input type="number" class="score" id="score" placeholder="your score">
+        <button class="submit-button" id="submit-button" type="button">submit</button>
       </form>
     </div>
     </div>
 
-  </sectiom>
+  </section>
 </body>
 </html>
