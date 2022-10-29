@@ -1,7 +1,6 @@
 const renderContainer = async (gameLInk) => {
   const res = await fetch(gameLInk);
   const resData = await res.json();
-  // .then((resData) => {
   const container = document.querySelector('.table');
   container.replaceChildren();
   let counts = 1;

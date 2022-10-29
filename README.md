@@ -10,9 +10,8 @@ In this project I built a Leaderboard list app, where the following was implemen
 
 - HTML
 - CSS
--javascript
+- javaScript
 - Linters
--webpack
 
 ### Prerequisites
 
@@ -27,10 +26,6 @@ In this project I built a Leaderboard list app, where the following was implemen
 
 - Copy the github link for the repository
 - Open the git terminal and type git clone then paste the repository link
-
-### Run tests
-
-- It has been tested and it is fully responsive
 
 ### Deployment
 
