@@ -8,9 +8,9 @@ In this project I built a Leaderboard list app, where the following was implemen
 - Used async and await JavaScript features to consume the API.
 ## Built With
 
-- HTML
-- CSS
-- javaScript
+- Html
+- Css
+- JavaScript
 - Linters
 
 ### Prerequisites
