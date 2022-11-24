@@ -4,16 +4,27 @@
   box-sizing: border-box;
 }
 
+section {
+  border: 5px dotted rgb(233, 69, 96);
+  width: 70%;
+  height: 75vh;
+  margin: 0 auto;
+  background-color: rgb(238, 215, 215);
+}
+
 h1 {
   padding-left: 2rem;
   padding-top: 2rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .mainest {
-  width: 100%;
   display: flex;
   gap: 3rem;
   padding-top: 3rem;
+  justify-content: space-around;
 }
 
 .recent-scores {
@@ -32,7 +43,7 @@ h1 {
 form {
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 85%;
   gap: 1rem;
   padding-top: 1rem;
 }
@@ -42,7 +53,7 @@ input {
 }
 
 .submit-button {
-  width: 50%;
+  width: 45%;
   margin-left: 5rem;
   padding: 3px;
 }
