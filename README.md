@@ -30,7 +30,7 @@ In this project I built a Leaderboard list app, where the following was implemen
 ### Deployment
 
 - It will be deployed to the github page
--live version of project [repository link]( https://ngufor-emmanuella.github.io/module-booklist/)
+-live version of project [repository link](https://beautiful-cascaron-bd0294.netlify.app/)
 
 ## Authors
 
